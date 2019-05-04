@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crear Foro</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/wrapper_styles.css">
+    <link rel="stylesheet" href="css/menu_style.css">
+    <link rel="stylesheet" href="css/sesion_styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="sesion">
+                <ul>
+                    <li><a href="iniciar_sesion.html">Iniciar Sesion</a></li>
+                    <li><a href="registrarse.php">Registrarse</a></li>
+                </ul>
+            </div>
+            <h2>Foro Web.com</h2>
+            <nav>
+                <ul>
+                    <li><a href="index.php">Inicio</a></li>
+                    <li><a href="foros.html">Foros</a></li>
+                    <li><a href="index.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Inicio de Seccion -->
+        <section>
+            <article>
+                <br>
+                <h3>Inicie Sesión en el Foro</h3>
+                <div class="panel_sesion">
+                    <form id="formulario_sesion" action="php/iniciar_sesion.php" method="POST">
+                        <label for="nickname">Nickname :</label>
+                        <input type="text" name="nickname">
+                        <br>
+                        <label for="contraseña">Contraseña :</label>
+                        <input name="contraseña" type="password">
+                        <br>
+                        <input type="submit" value="Iniciar Sesión">
+                    </form>
+                </div>
+            </article>
+        </section>
+
+        <footer><p>Foro Web | Copyright - Proyecto de Base de Datos</p></footer>
+    </div>
+    
+</body>
+</html>

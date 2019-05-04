@@ -1,0 +1,30 @@
+.cuadro_buscador{
+    width: 80%;
+    padding: 4px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#buscador{
+    width: 85%;
+    height: 1.8em;
+    padding: 3px;
+}
+
+#buscador:focus{
+    border:1px solid #11b0e1;
+    padding: 4px;
+    outline: none;
+}
+
+#boton_buscar{
+    display: inline-block;
+    height: 1.8em;
+    width: 14%;
+    border-style: none;
+}
+
+#boton_buscar:active{
+    background-color: #adadad;
+}

@@ -1,0 +1,45 @@
+.wrapper{
+    background-color: aliceblue;
+    width: 90%;
+    position: relative;
+    min-width: 1000px;
+    margin: auto;
+}
+
+.barra_opciones{
+    width: 100%;
+    padding: 10px;
+}
+.crear_foro{
+    width: 100px;
+}
+
+.titulo_articulo{
+    padding: 2px;
+    background-color:#b1ced6;
+}
+
+.articulo{
+    padding: 3px;
+    width: 100%;
+}
+
+.articulo a{
+    display: inline-flex;
+    width: 80%;
+}
+.eliminar_foro{
+    display: inline-flex;
+}
+
+.articulo:hover{
+    background-color: rgb(213, 227, 241);
+}
+
+footer{
+    margin-top: 20px;
+    background-color: cadetblue;
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+}

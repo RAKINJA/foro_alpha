@@ -1,0 +1,12 @@
+.titulo_crear_foro{
+    margin-bottom: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.panel_foro{
+    padding: 20px;
+}
+
+.panel_foro input{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,46 @@
+.titulo_hilo{
+    padding-left:15px;
+    margin-top: 15px;
+    font-size: 10px;
+}
+
+.mensaje{
+    width: 100%;
+}
+
+.mensaje_principal > .perfil {
+    background-color: rgb(112, 144, 146);
+    color: #fff;
+}
+
+.perfil{
+    display: inline-flex;
+    padding: 5px;
+    width: 100%;
+    background-color: rgb(139, 182, 184);
+}
+
+.perfil p{
+    margin-left: 10px;
+}
+
+.respuesta{
+    width: 100%;
+    padding: 7px;
+    background-color: #f5f8fa;
+}
+
+.panel_comentario{
+    background-color: rgba(207, 226, 230, 0.966);
+    width: 50%;
+    height: 120px;
+    left: 25%;
+    bottom: 10px;
+    position: fixed;
+    padding: 3px;
+}
+
+.cuadro_mensaje{
+    height: 80%;
+    width: 100%;
+}

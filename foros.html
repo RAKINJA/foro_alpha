@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/wrapper_styles.css">
+    <link rel="stylesheet" href="css/menu_style.css">
+    <link rel="stylesheet" href="css/buscador_style.css">
+    
+    <title>Foro Web</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="sesion">
+                <ul>
+                    <li><a href="iniciar_sesion.html">Iniciar Sesion</a></li>
+                    <li><a href="registrarse.php">Registrarse</a></li>
+                </ul>
+            </div>
+            <h2>Foro Web.com</h2>
+            <nav>
+                <ul>
+                    <li><a href="index.php">Inicio</a></li>
+                    <li><a href="foros.html">Foros</a></li>
+                    <li><a href="index.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Inicio de Seccion -->
+        <section>
+            <!-- buscador-->
+            <form class="cuadro_buscador" action="php/buscador.php">
+                <input id="buscador" placeholder="Buscar foros..." type="text">
+                <input id="boton_buscar" formaction="php/buscador.php" type="submit" value="Buscar Foro">    
+            </form>
+            
+            <!--barra crear foro-->
+            <div class="barra_opciones">
+                <input class="crear_foro" onclick="window.location.href='crear_foro.php'" type="button" value="Crear Foro">
+            </div>
+
+            <!--articulos-->
+            <article>
+                <div class="titulo_articulo"><h3>Articulos Destacados</h3></div>
+                <div class="articulo">
+                    <a href="hilo.html"><h4>Titulo del Sub Articulo</h4></a>
+                    <input class="eliminar_foro" type="button" value="Eliminar Foro" >    
+                </div>
+                <div class="articulo">
+                    <a href="hilo.html"><h4>Titulo del Sub Articulo</h4></a>
+                    <input class="eliminar_foro" type="button" value="Eliminar Foro" >
+                </div>
+
+                <div class="articulo">
+                    <a href="hilo.html"><h4>Titulo del Sub Articulo</h4></a>
+                    <input class="eliminar_foro" type="button" value="Eliminar Foro" >
+                </div>
+
+                <div class="articulo">
+                    <a href="hilo.html"><h4>Titulo del Sub Articulo</h4></a>
+                    <input class="eliminar_foro" type="button" value="Eliminar Foro" >
+                </div>
+            </article>
+
+            <article>
+                <div class="titulo_articulo"><h3>Articulos Recientes</h3></div>
+                <div class="articulo">
+                    <a href="hilo.html"><h4>Titulo del Sub Articulo</h4></a>
+                    <input class="eliminar_foro" type="button" value="Eliminar Foro" >
+                </div>
+            </article>
+
+            <article>
+                <div class="titulo_articulo"><h3>Noticias</h3></div>
+                <div class="articulo">
+                    <a href="hilo.html"><h4>Titulo del Sub Articulo</h4></a>
+                    <input class="eliminar_foro" type="button" value="Eliminar Foro" >
+                </div>
+            </article>
+        </section>
+
+        <footer><p>Foro Web | Copyright - Proyecto de Base de Datos</p></footer>
+    </div>
+</body>
+</html>

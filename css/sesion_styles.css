@@ -1,0 +1,10 @@
+h3 {
+    margin-left: 30px;
+}
+
+.panel_sesion{
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+    line-height: 30px;
+}
